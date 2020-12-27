@@ -11,3 +11,5 @@ In this implementation, we'll be using 2 registers. The first register will cont
 4. Finally, we measure the first $n$ qubits.
 
 After the measurement outcomes are determined, we will need to do additional classical post-processing in order to determine the factors or to decide to run the program again.
+## Circuit Schematic for our implementation
+![](images/download.png)
