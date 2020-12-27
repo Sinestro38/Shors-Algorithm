@@ -8,7 +8,7 @@ In this implementation, we'll be using 2 registers. The first register will cont
 
 3. Third, we expose the period by applying an inverse quantum Fourier transform on the measurement qubits. This works since the quantum phase estimation subroutine encoded the modular exponentiation functions with a fourier basis on the measurement qubits. Applying an inverse QFT just translates that fourier basis into the computational basis thereby revealing periodic elements.
 
-4. Finally, we measure the first $n$ qubits.
+4. Finally, we measure the first register.
 
 After the measurement outcomes are determined, we will need to do additional classical post-processing in order to determine the factors or to decide to run the program again.
 ## Circuit Schematic for our implementation
